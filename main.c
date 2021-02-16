@@ -4,6 +4,6 @@ int main()
 {
     double f;
     scanf("%lf", &f);
-    print("%lf\n", f / 180.0 * PI);
-    printf("%lf\n", f * 180.0 / PI);
+    print("deg to radians: %lf\n", f / 180.0 * PI);
+    printf("radians to deg: %lf\n", f * 180.0 / PI);
 }
