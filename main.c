@@ -4,5 +4,6 @@ int main()
 {
     double f;
     scanf("%lf", &f);
-    print("%lf", f / 180.0 * PI);
+    print("%lf\n", f / 180.0 * PI);
+    printf("%lf\n", f * 180.0 / PI);
 }
